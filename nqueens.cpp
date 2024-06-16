@@ -8,6 +8,6 @@ using namespace std;
 
 int main()
 {
-    cout<<"lets start new adenture";
+    
     return 0;
 } 
