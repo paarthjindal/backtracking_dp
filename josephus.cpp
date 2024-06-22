@@ -18,15 +18,18 @@ int solution(int n,int k)
     return 0;
    }
    int x=solution(n-1,k);
+
    int y=(x+k)%n;
+   cout<<y+1<<" ";
+
    return y;
 }
 //just let do recursion do its magic make a tree and dry run of the resut to get and idea
 int main()
 {
     int n;
-    int k;
-    cin>>n>>k;
+    int k=1;
+    cin>>n;
     int ans=solution(n,k);
 
 
